@@ -8,6 +8,7 @@ import { CardComponent } from './card/card.component';
 import { ContactComponent } from './contact/contact.component';
 import { LibraryComponent } from './library/library.component';
 import { ReaderComponent } from './reader/reader.component';
+import { CreatAboutComponent } from './creat-about/creat-about.component';
 import { ContactPritiComponent } from './contact-priti/contact-priti.component';
 
 @NgModule({
@@ -18,7 +19,9 @@ import { ContactPritiComponent } from './contact-priti/contact-priti.component';
     ContactComponent,
     LibraryComponent,
     ReaderComponent,
-    ContactPritiComponent
+    ContactPritiComponent,
+    CreatAboutComponent,
+    
   ],
   imports: [
     BrowserModule,
