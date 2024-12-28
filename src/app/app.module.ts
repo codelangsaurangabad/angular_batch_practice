@@ -9,6 +9,7 @@ import { ContactComponent } from './contact/contact.component';
 import { LibraryComponent } from './library/library.component';
 import { ReaderComponent } from './reader/reader.component';
 import { CreatAboutComponent } from './creat-about/creat-about.component';
+import { ContactPritiComponent } from './contact-priti/contact-priti.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,9 @@ import { CreatAboutComponent } from './creat-about/creat-about.component';
     ContactComponent,
     LibraryComponent,
     ReaderComponent,
-    CreatAboutComponent
+    ContactPritiComponent,
+    CreatAboutComponent,
+    
   ],
   imports: [
     BrowserModule,
