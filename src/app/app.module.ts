@@ -8,6 +8,7 @@ import { CardComponent } from './card/card.component';
 import { ContactComponent } from './contact/contact.component';
 import { LibraryComponent } from './library/library.component';
 import { ReaderComponent } from './reader/reader.component';
+import { ContactPritiComponent } from './contact-priti/contact-priti.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ReaderComponent } from './reader/reader.component';
     CardComponent,
     ContactComponent,
     LibraryComponent,
-    ReaderComponent
+    ReaderComponent,
+    ContactPritiComponent
   ],
   imports: [
     BrowserModule,
